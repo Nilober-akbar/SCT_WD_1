@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunshine Hotel</title>
+    <link rel="icon" href="logo.jpeg" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.jpeg" alt="Sunshine Hotel Logo">
+    </div>
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Welcome to Sunshine Hotel</h1>
+      <p><h2>Let the colours of freedom unfold in True Indian Luxury</h2></p>
+      <a href="#booking" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Rooms Section -->
+  <section class="rooms" id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room-gallery">
+      <div class="room-card">
+        <img src="royalsuite" alt="Royal Suite">
+        <h3>Royal-suiteroom</h3>
+        <p>Most luxurious option -Multiple rooms, private balcony, high-end furniture,Butler service, personal chef.</p>
+      </div>
+      <div class="room-card">
+        <img src="room.jpg" alt="Deluxe Room">
+        <h3>Deluxe Room</h3>
+        <p>Comfortable room with queen-size bed, city view, and free breakfast.</p>
+      </div>
+      <div class="room-card">
+        <img src="suiteroom.jpeg" alt="Premium Room">
+        <h3>Premium Room</h3>
+        <p>Spacious room with king-size bed, balcony, and 24/7 room service.</p>
+      </div>
+      <div class="room-card">
+        <img src="familyroom.png" alt="Family Room">
+        <h3>Family Room</h3>
+        <p>Large room for families with multiple beds and kid-friendly facilities.</p>
+      </div>
+      <div class="room-card">
+        <img src="villa" alt="Private villa">
+        <h3>private-villa</h3>
+        <p>Large separate villas for families with multiple bedrooms and kid-friendly facilities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section class="amenities" id="amenities">
+    <h2>Amenities</h2>
+    <div class="amenities-gallery">
+      
+      <div class="amenity-card">
+        <img src="pool.jpg" alt="Pool">
+        <p>Swimming Pool</p>
+      </div>
+      <div class="amenity-card">
+        <img src="library.jfif" alt="library">
+        <p>library</p>
+      </div>
+      <div class="amenity-card">
+        <img src="restaurent.jpg" alt="Restaurant">
+        <p>Restaurant</p>
+      </div>
+      <div class="amenity-card">
+        <img src="Game-Room.jpeg" alt="GameRoom">
+        <p>Game-Room</p>
+      </div>
+      <div class="amenity-card">
+        <img src="gym.png" alt="Gym">
+        <p>Gym</p>
+      </div>
+      <div class="amenity-card">
+        <img src="spa.jpg" alt="spa">
+        <p>Spa</p>
+      </div>
+      <div class="amenity-card">
+        <img src="conferenceroom.png" alt="confrence-Room">
+        <p>Conference room</p>
+      </div>
+      <div class="amenity-card">
+        <img src="entrance.png" alt="Parking">
+        <p>Parking Space</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+<section class="booking" id="booking">
+  <h2>Book a Room</h2>
+
+  <div class="form-wrapper">
+    <form id="bookingForm" onsubmit="event.preventDefault(); showMessage();">
+      <input type="text" placeholder="Your Name" required>
+      <input type="date" required>
+      <input type="number" placeholder="Number of Guests" required>
+
+      <!-- Room selection -->
+      <select required>
+        <option value="">Select Room Type</option>
+        <option value="Deluxe Room">Deluxe Room</option>
+        <option value="Premium Room">Premium Room</option>
+        <option value="Family Room">Family Room</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+<!--thank you message-->
+    <div id="thankYouMessage" class="thank-you">
+      ✅ Thank you! Your booking has been submitted.
+    </div>
+  </div>
+</section>
+
+    <!-- feedback details -->
+
+  <section class="feedback-section" id="feedback">
+  <h2>Guest Feedback</h2>
+  <div class="feedback-cards">
+    <div class="feedback-card">
+      <h4>Ayesha</h4>
+      <p>“Loved the sea view and friendly staff. 10/10 experience!”</p>
+    </div>
+    <div class="feedback-card">
+      <h4>Ravi</h4>
+      <p>“Great location, excellent food and cozy rooms.”</p>
+    </div>
+    <div class="feedback-card">
+        <h3>Priya </h3>
+        <p>"Amazing experience! The rooms were clean and the food was great."</p>
+      </div>
+    <!-- Add more guest cards as needed -->
+  </div>
+</section>
+
+<!-- Contact Section -->
+  
+  <section class="contact">
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <p>Email: contact@sunshinehotel.com</p>
+    <p>Phone: +123-456-7890</p>
+    <p>Location: Beachside Blvd, Goa</p>
+  </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <div class="socials">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+  </div>
+</section>
+
+<!--script-->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
