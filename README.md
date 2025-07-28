@@ -1,2 +1,3 @@
 # SCT_WD_1
 I designed and built a full-featured hotel website that blends aesthetic design, user interactivity, and responsive performance.
+Project Features: Fixed navigation bar with scroll and hover effects, Hero section with bold introduction and call-to-action, Visually appealing room cards with hover pop effects, Responsive amenities section , Booking form with input validation and confirmation message, Dedicated contact section with location, phone, and email, Feedback section with customer reviews and images, Embedded social media links (LinkedIn, Instagram, Twitter, etc.), Optimized for mobile and desktop devices.
